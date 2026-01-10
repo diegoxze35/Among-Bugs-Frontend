@@ -1,0 +1,44 @@
+# --- Dependencias ---
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log*
+
+# --- Compilación y Salida ---
+# La carpeta donde Angular genera la app compilada
+/dist
+/tmp
+/out-tsc
+
+# --- Configuración del Sistema / IDEs ---
+# Archivos de Mac
+.DS_Store
+# Visual Studio Code
+.vscode/
+.history/
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+
+# --- Angular Específico ---
+# Caché de compilación de Angular 13+
+/.angular/
+# Archivo de generación de perfiles de Bazel (si se usa)
+bazel-out
+/bazel-testlogs
+/ibazel_profiler_pb
+
+# --- Entornos Locales (Opcional pero recomendado) ---
+# Si usas variables de entorno locales que no deben subir
+src/environments/environment.local.ts
+.env
+
+# --- Tests ---
+# Reportes de cobertura de código
+/coverage
+
+# --- Varios ---
+*.log
+.sass-cache/
+connect.lock
+selenium-debug.log
